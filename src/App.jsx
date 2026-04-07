@@ -62,7 +62,7 @@ export default function App() {
               🏆 1st Prize (₹1,00,000)
             </div>
             <h3 style={{ margin: "0 0 10px 0", color: "#f8fafc", display: "flex", alignItems: "center", gap: "8px" }}>
-              <Cpu size={20} color="#60a5fa" /> Schrödinger’s Hackathon — SRM IST
+              <Cpu size={20} color="#60a5fa" /> Schrodingers Cat Hackathon — SRM IST
             </h3>
             <p style={{ margin: "0 0 15px 0", fontSize: "1rem", color: "#60a5fa", fontWeight: "600" }}>XR Virtual Reality System</p>
             <ul style={{ margin: 0, paddingLeft: "20px", color: "#94a3b8", fontSize: "0.9rem", lineHeight: "1.6" }}>
@@ -81,7 +81,6 @@ export default function App() {
               Awarded 1st Place in the Campus Rangoli Competition for a "Living in Space" conceptual design.
             </p>
           </div>
-
         </div>
       </div>
 
@@ -116,7 +115,6 @@ export default function App() {
           © 2026 Nandu Jaddu • Built with React & Framer Motion
         </p>
       </footer>
-
     </div>
   );
 }
