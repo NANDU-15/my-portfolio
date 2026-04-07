@@ -6,6 +6,7 @@ export default function App() {
   return (
     <div style={{ backgroundColor: "#020617", color: "#f8fafc", minHeight: "100vh", fontFamily: "sans-serif", textAlign: "center", padding: "50px 20px" }}>
       
+      {/* Responsive Styles for Mobile */}
       <style>{`
         .responsive-title { font-size: 3.5rem; margin: 10px 0; color: #60a5fa; }
         .section-title { font-size: 2rem; margin-bottom: 30px; color: #f8fafc; display: flex; align-items: center; justify-content: center; gap: 12px; }
@@ -61,10 +62,10 @@ export default function App() {
               🏆 1st Prize (₹1,00,000)
             </div>
             <h3 style={{ margin: "0 0 10px 0", color: "#f8fafc", display: "flex", alignItems: "center", gap: "8px" }}>
-              <Cpu size={20} color="#60a5fa" /> Schrodingers Cat Hackathon — SRM IST
+              <Cpu size={20} color="#60a5fa" /> Schrödinger’s Cat Hackathon — SRM IST
             </h3>
             <p style={{ margin: "0 0 15px 0", fontSize: "1rem", color: "#60a5fa", fontWeight: "600" }}>XR Virtual Reality System</p>
-            <ul style={{ margin: 0, paddingLeft: "20px", color: "#94a3b8", fontSize: "0.9rem", lineHeight: "1.6" }}>
+            <ul style={{ margin: 0, paddingLeft: "200px", color: "#94a3b8", fontSize: "0.9rem", lineHeight: "1.6" }}>
               <li>Built an Immersive XR Virtual Reality System for interactive real-world simulations.</li>
               <li>Developed core features integrating VR environments with user interaction modules.</li>
               <li>Collaborated in a team to design and implement the solution under tight deadlines.</li>
@@ -94,21 +95,9 @@ export default function App() {
       {/* Footer Section */}
       <footer style={{ marginTop: "100px", padding: "40px 0", borderTop: "1px solid #1e293b" }}>
         <div className="social-container">
-          <SocialLink 
-            href="https://github.com/NANDU-15" 
-            icon={<Github size={24} />} 
-            label="GitHub" 
-          />
-          <SocialLink 
-            href="https://linkedin.com/in/jaddu-naganandini-329020275" 
-            icon={<Linkedin size={24} />} 
-            label="LinkedIn" 
-          />
-          <SocialLink 
-            href="mailto:your-email@example.com" 
-            icon={<Mail size={24} />} 
-            label="Email" 
-          />
+          <SocialLink href="https://github.com/NANDU-15" icon={<Github size={24} />} label="GitHub" />
+          <SocialLink href="https://linkedin.com/in/jaddu-naganandini-329020275" icon={<Linkedin size={24} />} label="LinkedIn" />
+          <SocialLink href="mailto:your-email@example.com" icon={<Mail size={24} />} label="Email" />
         </div>
         <p style={{ color: "#64748b", fontSize: "0.85rem" }}>
           © 2026 Nandu Jaddu • Built with React & Framer Motion
