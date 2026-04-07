@@ -6,7 +6,6 @@ export default function App() {
   return (
     <div style={{ backgroundColor: "#020617", color: "#f8fafc", minHeight: "100vh", fontFamily: "sans-serif", textAlign: "center", padding: "50px 20px" }}>
       
-      {/* Responsive Styles for Mobile */}
       <style>{`
         .responsive-title { font-size: 3.5rem; margin: 10px 0; color: #60a5fa; }
         .section-title { font-size: 2rem; margin-bottom: 30px; color: #f8fafc; display: flex; align-items: center; justify-content: center; gap: 12px; }
@@ -53,7 +52,7 @@ export default function App() {
         
         <div style={{ display: "grid", gap: "20px" }}>
           
-          {/* Featured: Schrödinger’s Hackathon */}
+          {/* Featured: Schrödinger’s Cat Hackathon */}
           <motion.div 
             whileHover={{ scale: 1.01 }}
             style={{ padding: "25px", background: "linear-gradient(145deg, #0f172a, #1e293b)", borderLeft: "5px solid #60a5fa", borderRadius: "8px", position: "relative" }}
