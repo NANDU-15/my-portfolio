@@ -13,7 +13,6 @@ import Contact from "./sections/Contact";
 function App() {
   return (
     <main className="bg-black text-white overflow-x-hidden relative">
-      
       <CursorGlow />
 
       <Navbar />
