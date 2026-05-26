@@ -1,34 +1,30 @@
-import { useEffect, useState } from "react";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
-function CursorGlow() {
-  const [position, setPosition] = useState({
-    x: 0,
-    y: 0,
-  });
+import Hero from "./sections/Hero";
+import About from "./sections/About";
+import Skills from "./sections/Skills";
+import Projects from "./sections/Projects";
+import Achievements from "./sections/Achievements";
+import Experience from "./sections/Experience";
+import Contact from "./sections/Contact";
 
-  useEffect(() => {
-    const moveCursor = (e) => {
-      setPosition({
-        x: e.clientX,
-        y: e.clientY,
-      });
-    };
-
-    window.addEventListener("mousemove", moveCursor);
-
-    return () =>
-      window.removeEventListener("mousemove", moveCursor);
-  }, []);
-
+function App() {
   return (
-    <div
-      className="cursor-glow"
-      style={{
-        left: position.x,
-        top: position.y,
-      }}
-    />
+    <main className="bg-black text-white overflow-x-hidden relative">
+      <Navbar />
+
+      <Hero />
+      <About />
+      <Skills />
+      <Projects />
+      <Achievements />
+      <Experience />
+      <Contact />
+
+      <Footer />
+    </main>
   );
 }
 
-export default CursorGlow;
+export default App;gi
